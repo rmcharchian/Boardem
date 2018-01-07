@@ -9,6 +9,7 @@ const taskList = document.querySelector('.collection');
 const clearBtn = document.querySelector('.clear-tasks');
 const filter = document.querySelector('#filter');
 const taskInput = document.querySelector('#task');
+
 //test 
 //Call all event listeners
 loadEventListeners();
@@ -25,7 +26,7 @@ function loadEventListeners() {
     // Clear all items on clear button click
     clearBtn.addEventListener('click', clearTasks);
     //Filter task
-    filter.addEventListener('keyup', filterTasks);
+    // filter.addEventListener('keyup', filterTasks);
 
 }
 
