@@ -10,7 +10,9 @@ myApp.config(function($routeProvider, $locationProvider) {
         templateUrl: '/views/templates/schedule.html',
         controller: 'EventController as ec',
         
-      }).otherwise({
-        redirectTo: '/'
-      });
+      }) .when('/', {
+        templateUrl: '/views/templates/event.html',
+        controller: 'LoginController as lc'
+      })
+   
     });
