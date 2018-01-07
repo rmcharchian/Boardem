@@ -12,7 +12,7 @@ myApp.config(function($routeProvider, $locationProvider) {
         
       }) .when('/', {
         templateUrl: '/views/templates/event.html',
-        controller: 'LoginController as lc'
+        controller: 'ScheduleController as sc'
       })
    
     });
