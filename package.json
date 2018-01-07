@@ -1,0 +1,28 @@
+{
+  "name": "gametime-encore",
+  "version": "1.0.0",
+  "description": "Hack the Gap - Boardem",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rmcharchian/GameTime-Encore.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rmcharchian/GameTime-Encore/issues"
+  },
+  "homepage": "https://github.com/rmcharchian/GameTime-Encore#readme",
+  "dependencies": {
+    "angular": "^1.6.8",
+    "angular-route": "^1.6.8",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "pg": "^7.4.1",
+    "request": "^2.83.0"
+  }
+}
