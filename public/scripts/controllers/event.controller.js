@@ -6,12 +6,15 @@ myApp.controller('EventController', function ($http, $location) {
         { "id": 2, "name": "Monopoly", "duration": 120, "maxPlayers": 6, "minPlayers": 2 },
         { "id": 3, "name": "Pandemic", "duration": 90, "maxPlayers": 6, "minPlayers": 3 },
         { "id": 4, "name": "Coup", "duration": 30, "maxPlayers": 5, "minPlayers": 2 },
+        { "id": 5, "name": "Carcassonne", "duration": 45, "maxPlayers": 5, "minPlayers": 2 },
+        { "id": 6, "name": "Munchkin", "duration": 90, "maxPlayers": 6, "minPlayers": 3 },
+        { "id": 7, "name": "Trivial Pursuit", "duration": 90, "maxPlayers": 6, "minPlayers": 2 },
     ];
     
     var numPlayers = 15;
     var numRooms = 2;
-    var startTime = new Date("1/7/2018 8:00").getTime();
-    var endTime = new Date("1/7/2018 22:00").getTime();
+    var startTime = new Date("1/8/2018 8:00").getTime();
+    var endTime = new Date("1/8/2018 22:00").getTime();
     
     var rooms = [];
     var schedule = new Array();
