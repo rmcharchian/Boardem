@@ -23,7 +23,8 @@
     
     <title>Document</title>
 </head>
-<body >
+<body ng-app="myApp">
+<main ng-view></main>
 <h1>Boardem</h1>
         <div class="container">
                 <div class="row">
@@ -34,23 +35,28 @@
                                 <div class="row">
                                     <form id="game-form">
         
-        
-        
-                                        <div class="input-field col s12">
+                                        <div class="input-field col s6">
                                             Select Date:
+                                        </div>
+
+                                        <div class="input-field col s6">
+                                                How Long Will You Be Playing: 
+                                            </div>
+                                        
+                                        <div class="input-field col s6">
+                                                &nbsp;
+
                                             <input id="dayInput" type="date" placeholder="What day will you be boarding">
                                         </div>
         
-                                        <div class="input-field col s12">
-                                            How Long Will You Be Playing: Start Time-End Time
-                                        </div>
+                                    
         
-                                        <div class="gameTime input-field col s6">
+                                        <div class="gameTime input-field col s3">
                                             Start:
                                             <input type="time" name="startTime" id="startTime">
                                         </div>
         
-                                        <div class="gameTime input-field col s6">
+                                        <div class="gameTime input-field col s3">
                                             End:
                                             <input type="time" name="endTime" id="endTime">
                                         </div>
@@ -83,7 +89,7 @@
                                         </div>
         
                                         <div class="input-field col s4">
-                                            Max Players:
+                                            Min Players:
                                             <select>
                                                 <option value="1">1</option>
                                                 <option value="2">2</option>
@@ -95,7 +101,7 @@
                                         </div>
         
                                         <div class="input-field col s4">
-                                            Min Players:
+                                            Max Players:
                                             <select>
                                                     <option value="1">1</option>
                                                     <option value="2">2</option>
@@ -107,18 +113,18 @@
                                         </div>
         
                                         <br>
-                                        <input type="submit" value="Lets Play" class="btn">
+                                        <input type="submit" value="Add Game" class="btn">
                                     </form>
                                 </div>
                             </div>
                             <div class="card-action">
-                                <h5 id="task-title">Tasks</h5>
-                                <div class="input-field col s12">
+                                <h5 id="task-title">Games</h5>
+                                <!-- <div class="input-field col s12">
                                         <input type="text" name="filter" id="filter">
                                         <label for="filter">Filter Tasks</label>
-                                    </div>
+                                    </div> -->
                                 <ul class="collection"></ul>
-                                <a href="#" class="clear-tasks btn black">Clear Tasks</a>
+                               <a href="/#schedule" type="submist" class="clear-tasks btn black">Create Schedule</a>
                             </div>
                         </div>
                     </div>
