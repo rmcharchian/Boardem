@@ -23,7 +23,8 @@
     
     <title>Document</title>
 </head>
-<body >
+<body ng-app="myApp">
+<main ng-view></main>
 <h1>Boardem</h1>
         <div class="container">
                 <div class="row">
@@ -112,7 +113,7 @@
                                         </div>
         
                                         <br>
-                                        <input type="" value="Add Game" class="btn">
+                                        <input type="submit" value="Add Game" class="btn">
                                     </form>
                                 </div>
                             </div>
@@ -123,7 +124,7 @@
                                         <label for="filter">Filter Tasks</label>
                                     </div> -->
                                 <ul class="collection"></ul>
-                                <a href="views/templates/schedule.html" type="submist" class="clear-tasks btn black">Create Schedule</a>
+                               <a href="/#schedule" type="submist" class="clear-tasks btn black">Create Schedule</a>
                             </div>
                         </div>
                     </div>
